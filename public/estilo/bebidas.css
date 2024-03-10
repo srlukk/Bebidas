@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body, nav{
+    background-color: #F8F8FF;
+}
+
+
+nav{
+    font-family: "Madimi One", sans-serif;
+    position: fixed;
+}
+
+.card-bebidas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin: 20px;
+    columns: 4;
+}
+
+.card{
+    flex: 0 1 calc(25% - 20px);
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+    z-index: 1;
+    background-color: #F8F8FF;
+}
+
+.card-img-top{
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: #f8f8ff;
+}
+::-webkit-scrollbar-thumb{
+    background-color: lightblue;
+    border-radius: 10px;
+}

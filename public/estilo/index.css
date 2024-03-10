@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Ojuju:wght@200..800&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
+    overflow: hidden;
+    
+}
+
+body{
+    background-color: #F8F8FF;
+}
+
+section,footer{
+    padding: 54px 0;
+}
+
+h1{
+    font-size: 70px;  
+}
+
+p{
+    color: #0000009c;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner .banner-text{
+    margin: 80px;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.banne-text{
+    font-size: 96px;
+}
+
+
+
